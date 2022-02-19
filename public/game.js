@@ -18,11 +18,12 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
+  this.load.image('background', '/assets/cavefront.png');
 
 }
 
 function create() {
-
+  var back = this.add.image(400,300,'background');
 }
 
 function update() {
