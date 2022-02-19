@@ -1,7 +1,7 @@
 import Phaser from 'phaser';
-import backgroundImg from './assets/cavefront.png';
-import wallImg from './assets/caveback.png';
-import psheetImg from './assets/p_sheet.png';
+import backgroundImg from '/assets/cavefront.png';
+import wallImg from '/assets/caveback.png';
+import psheetImg from '/assets/p_sheet.png';
 
 
 class MyGame extends Phaser.Scene
