@@ -1,3 +1,4 @@
+import backgroundImg from './assets/cavefront.png';
 var config = {
   type: Phaser.AUTO,
   width: 800,
@@ -18,7 +19,7 @@ var config = {
 var game = new Phaser.Game(config);
 
 function preload() {
-  this.load.image('background', '/assets/cavefront.png');
+  this.load.image('background', backgroundImg);
 
 }
 
